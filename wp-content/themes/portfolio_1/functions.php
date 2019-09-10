@@ -4,11 +4,17 @@ add_theme_support('title-tag');
 
 add_theme_support('post-thumbnails');
 
-//menu
+//main menu
 function menu(){
 	register_nav_menu('main_menu', 'Menu principal');
 }
 add_action('init', 'menu');
+
+//footer menu
+function footer_menu(){
+    register_nav_menu('footer_menu', 'Menu footer');
+}
+add_action('init', 'footer_menu');
 
 //custom post type : portfolio_dev
 add_theme_support('post-thumbnails');

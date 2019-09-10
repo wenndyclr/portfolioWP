@@ -56,11 +56,11 @@ get_header();
             $args = [
             'post_type'         => 'devPortfolio', 
             //'posts_per_page'    => 3, 
-            'orderby'           => 'date', //tri par date
-            'order'             => 'DESC' //dans l'ordre descendant
+            'orderby'           => 'date', 
+            'order'             => 'DESC' 
             ];
             ?>
-            <?php $ma_boucle = new WP_Query($args); //permet de faire des requetes WP_Query()
+            <?php $ma_boucle = new WP_Query($args); 
                 if( $ma_boucle->have_posts() ) :
                     while( $ma_boucle->have_posts() ) : $ma_boucle->the_post();
             ?>
