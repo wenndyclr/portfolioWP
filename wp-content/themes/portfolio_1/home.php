@@ -8,78 +8,80 @@ get_header();
 
 <section id="presentation">
     <div class="container-fluid">
-    	<div class="row">
-    		<div class="col-md-12 text-center">
-    			<h1>Développeur - Intégrateur Web junior</h1>
-    		</div>
-    		<div class="col-md-4">
-    			<img src="http://placekitten.com/200/200" alt="">
-    			<p>Prénom Nom</p>
-    			<p>Mail</p>
-    			<p>Tél</p>
-    			<p>Permis B</p>
-    		</div>
-    		<div class="col-md-8">
-    			<p>Sed (saepe enim redeo ad Scipionem, cuius omnis sermo erat de amicitia) querebatur, quod omnibus in rebus homines diligentiores essent; capras et oves quot quisque haberet, dicere posse, amicos quot haberet, non posse dicere et in illis quidem parandis adhibere curam, in amicis eligendis neglegentis esse nec habere quasi signa quaedam et notas, quibus eos qui ad amicitias essent idonei, iudicarent. Sunt igitur firmi et stabiles et constantes eligendi; cuius generis est magna penuria. Et iudicare difficile est sane nisi expertum; experiendum autem est in ipsa amicitia. Ita praecurrit amicitia iudicium tollitque experiendi potestatem.</p>
-    		</div>
-    	</div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Dévéloppeur/Intégrateur web junior</h1>
+            </div>
+            <div class="col-md-4">
+                <img src="http://placekitten.com/200/200">
+                <p>Prénom - Nom</p>
+                <p>Adresse mail</p>
+                <p>Tel</p>
+                <p>Permis B</p>
+            </div>
+            <div class="col-md-8">
+                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker. </p>
+            </div>
+        </div>
     </div>
 </section>
 
 <section id="journey">
     <div class="container-fluid">
-    	<div class="row">
-			<div class="col-md-4">
-				<h2>Mon parcours</h2>
-				<p>Sed (saepe enim redeo ad Scipionem, cuius omnis sermo erat de amicitia) querebatur, quod omnibus in rebus homines diligentiores essent; capras et oves quot quisque haberet, dicere posse, amicos quot haberet, non posse dicere et in illis quidem parandis adhibere curam, in amicis eligendis neglegentis esse nec habere quasi signa quaedam et notas, quibus eos qui ad amicitias essent idonei, iudicarent. Sunt igitur firmi et stabiles et constantes eligendi; cuius generis est magna penuria. Et iudicare difficile est sane nisi expertum; experiendum autem est in ipsa amicitia. Ita praecurrit amicitia iudicium tollitque experiendi potestatem.</p>
-			</div>
-			<div class="col-md-4">
-				<h2>Mes compétences</h2>
-				<p>Sed (saepe enim redeo ad Scipionem, cuius omnis sermo erat de amicitia) querebatur, quod omnibus in rebus homines diligentiores essent; capras et oves quot quisque haberet, dicere posse, amicos quot haberet, non posse dicere et in illis quidem parandis adhibere curam, in amicis eligendis neglegentis esse nec habere quasi signa quaedam et notas, quibus eos qui ad amicitias essent idonei, iudicarent. Sunt igitur firmi et stabiles et constantes eligendi; cuius generis est magna penuria. Et iudicare difficile est sane nisi expertum; experiendum autem est in ipsa amicitia. Ita praecurrit amicitia iudicium tollitque experiendi potestatem.</p>
-			</div>
-			<div class="col-md-4">
-				<h2>Mes expériences</h2>
-				<p>Sed (saepe enim redeo ad Scipionem, cuius omnis sermo erat de amicitia) querebatur, quod omnibus in rebus homines diligentiores essent; capras et oves quot quisque haberet, dicere posse, amicos quot haberet, non posse dicere et in illis quidem parandis adhibere curam, in amicis eligendis neglegentis esse nec habere quasi signa quaedam et notas, quibus eos qui ad amicitias essent idonei, iudicarent. Sunt igitur firmi et stabiles et constantes eligendi; cuius generis est magna penuria. Et iudicare difficile est sane nisi expertum; experiendum autem est in ipsa amicitia. Ita praecurrit amicitia iudicium tollitque experiendi potestatem.</p>
-			</div>
-		</div>
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Expériences</h2>
+                <p> Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Compétences</h2>
+                <p> Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Formations</h2>
+                <p> Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page</p>
+            </div>
+        </div>
     </div>
 </section>
 
 <section id="production">
     <div class="container-fluid">
         <div class="row">
-        	<div class="col-md-12">
-        		<h2>Mes réalisations</h2>
-        	</div>	
-				<?php
-				$args = [
-					'post_type' 		=> 'devPortfolio',
-					// 'posts_per_page' 	=> 3, 
-					'orderby' 			=> 'date', 
-					'order'				=> 'DESC' 
-				];
+            <div class="col-md-12 text-center">
+                <h2>Mes réalisations</h2>
+            </div>
 
-				$ma_boucle = new WP_Query($args);	
-					if( $ma_boucle->have_posts()) :	
-						while( $ma_boucle->have_posts() ) : $ma_boucle->the_post();
-				?>
-							<div class="col-md-6">
-								<?php the_title(); ?>
-								<?php the_content(); ?>
-								<?php the_post_thumbnail('medium', ['class' => 'card-mg-top']); ?>
-							</div>
-					<?php endwhile; endif; ?>
-        </div>	
+            <?php
+            $args = [
+            'post_type'         => 'devPortfolio', 
+            //'posts_per_page'    => 3, 
+            'orderby'           => 'date', //tri par date
+            'order'             => 'DESC' //dans l'ordre descendant
+            ];
+            ?>
+            <?php $ma_boucle = new WP_Query($args); //permet de faire des requetes WP_Query()
+                if( $ma_boucle->have_posts() ) :
+                    while( $ma_boucle->have_posts() ) : $ma_boucle->the_post();
+            ?>
+            <div class="col-md-6">
+                <?php the_post_thumbnail('medium'); ?>
+                <?php the_title(); ?>
+                <?php the_content(); ?>
+            </div>
+            <?php endwhile; endif; ?>
+        </div>
     </div>
 </section>
 
 <section id="contact_form">
     <div class="container-fluid">
-        	<p>Sed (saepe enim redeo ad Scipionem, cuius omnis sermo erat de amicitia) querebatur, quod omnibus in rebus homines diligentiores essent; capras et oves quot quisque haberet, dicere posse, amicos quot haberet, non posse dicere et in illis quidem parandis adhibere curam, in amicis eligendis neglegentis esse nec habere quasi signa quaedam et notas, quibus eos qui ad amicitias essent idonei, iudicarent. Sunt igitur firmi et stabiles et constantes eligendi; cuius generis est magna penuria. Et iudicare difficile est sane nisi expertum; experiendum autem est in ipsa amicitia. Ita praecurrit amicitia iudicium tollitque experiendi potestatem.
-
-			Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit; consilium vero dare audeamus libere. Plurimum in amicitia amicorum bene suadentium valeat auctoritas, eaque et adhibeatur ad monendum non modo aperte sed etiam acriter, si res postulabit, et adhibitae pareatur.
-
-			Ciliciam vero, quae Cydno amni exultat, Tarsus nobilitat, urbs perspicabilis hanc condidisse Perseus memoratur, Iovis filius et Danaes, vel certe ex Aethiopia profectus Sandan quidam nomine vir opulentus et nobilis et Anazarbus auctoris vocabulum referens, et Mopsuestia vatis illius domicilium Mopsi, quem a conmilitio Argonautarum cum aureo vellere direpto redirent, errore abstractum delatumque ad Africae litus mors repentina consumpsit, et ex eo cespite punico tecti manes eius heroici dolorum varietati medentur plerumque sospitales.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
